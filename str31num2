@@ -1,7 +1,0 @@
-S = int(input("Введите кол-во дней: "))
-x = 10
-summ = 0
-for i in range(S):
-    summ = summ + x
-    x = x + x * 0.1
-print(f"за {S} дней спортсмен пробежал суммарно: {summ:.2f}км")
